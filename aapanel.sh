@@ -19,7 +19,7 @@ purple(){
 }
 
 function aapanel-install(){
-wget -O "/root/aapanel-install.sh" "http://www.aapanel.com/script/install_6.0_en.sh"
+wget -O "/root/aapanel-install.sh" "https://www.aapanel.com/script/install_pro_en.sh"
 red "Installing the original aapanel panel from the official website."
 bash "/root/aapanel-install.sh"
 }
